@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 0; 
+  }
+.offer{
+    background-color: black;
+    margin-top:2px;
+    padding:5px;
+    text-align: center;
+    color:#E2E1E1;
+    font-size:25px;
+}
+nav{
+    display:flex;
+}
+.navbar{
+    margin:20px;
+    top:0;
+    background-color: white;
+    position: sticky;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarall{
+    margin:15px;
+   display: flex;
+   gap:50px;
+}
+.navbarall a{
+    color:black;
+    text-decoration: none;
+}
+.navbarall a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.level-up{
+    margin:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.level-up h1{
+    font-size:100px;
+}
+.level-up h5{
+    margin:20px;
+    font-size:20px;
+}
+
+.level-up button{
+    padding:10px 20px;
+}
+
+.brands{
+    margin-left:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands-all{
+    margin-top:50px;
+}
+.brands-all img{
+height:100px;
+width:150px;
+}
+
+.brands-all p{
+    margin:20px;
+    font-size: 30px;
+}
+.experiences{
+    margin:80px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.5vw;
+}
+.experiences h2{
+    margin:10px;
+}
+.motto{
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+    margin-bottom:20px;
+    
+}
+.motto-all{
+    background-color: #F2F4F7;
+    padding:15px;
+    border-radius: 10px;
+    font-size: 1.2vw;
+}
+.motto-all h4{
+    margin-bottom: 10px;
+}
+.shirtsall{
+    display:flex;
+    padding:20px;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+.shirts{
+    position:relative;
+}
+.shirts img{
+    border-radius: 2%;
+}
+.overlay{
+    background-color: black;
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    opacity:0.6;
+    position:absolute;
+    top:0;   
+}
+.shirtbutton{
+   padding:5% 10%;
+   font-size: 1.2vw;
+   position:absolute;
+   top:50%;
+   left:10%;
+   border-radius: 10px;
+   border: none;
+   z-index:2;
+}
+.most-wanted{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    position: relative;
+    overflow-x: scroll;
+}
+.most-wanted img{
+    border-radius: 5%;
+}
+.most-wanted_all{
+    position: relative;
+}
+.most-wanted::-webkit-scrollbar {
+    appearance: none;
+  }
+.sale{
+    top:4%;
+    left:4%;
+    padding:4px 12px;
+    border-radius: 20%;
+    background-color:red;
+    color:white;
+    font-size:2vw;
+    position:absolute;
+}
+.like-button{
+    position: absolute;
+    width:15%;
+    right: 5%;  
+    bottom:10%; 
+}
+.limited-offer{
+display: flex;
+margin:20px;
+gap:12%;
+background-color: #1D232C;
+width:97%;
+}
+.limited-one img{
+    padding:5% 20%;
+}
+.limited-two{ 
+    margin-top:5%;
+}
+.limited-two h2{
+    font-size:4vw;
+    color:white;
+}
+.limited-two h4{
+    font-size:2vw;
+    margin-top:2%;
+    color:white;
+}
+.limitedbutton{
+    margin-top:2%;
+    padding:3% 8%;
+    font-size: 1.2vw;
+    border-radius: 10px;
+    border: none;
+ }
+ .newsletter{
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .newsletter input{
+    margin-top:1%;
+    width:82%;
+    padding:10px;
+    border:2px solid black;
+ }
+ .subscribebutton{
+    margin-top:2%;
+    padding:1% 1%;
+    color:white;
+    background-color: black;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    border: none;
+ }
+ .footer{
+    margin-top:5%;
+    padding:3%;
+    background-color: #1D232C;
+ }
+ .footer h1{
+    font-size:3vw;
+    color:#E2E1E1;
+ }
+ .footer p{
+    margin-top:1%;
+    color:#E2E1E1;
+    font-size:2.2vw;
+ }
+ .icon{
+    padding:1% 2%;
+    display: flex;
+    gap:6%
+ }
+ .icon i{
+    margin-top:2%;
+    color:#E2E1E1;
+    font-size:31px;
+ } 
+
+ /* ****************Collections**************** */
+ .summer-heading{
+    padding:10px 20px;
+    font-size:2.5vw;
+ }
+ .summer-section{
+    padding:20px;
+    font-size:2.2vw;
+ }
+ .summer-input{
+    padding:10px;
+ }
+ .v1{
+    width:400px;
+    border-right:3px solid black;
+    height:80%;
+ }
+ .collection-section{
+    display: flex;
+    gap:2%
+ }
+ .collection{
+    width:72%;
+ }
+ .collection-search{
+    width:98%;
+    position: relative;
+ }
+ .collection-search input{
+    width:94.5%;
+    padding:1%;
+    border:1px solid black;
+    border-radius:10px;
+ }
+ .search-icon{
+    position: absolute;
+    right:4.5%;
+    bottom:30%;
+    
+ }
